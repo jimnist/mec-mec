@@ -1,4 +1,7 @@
 mec-mec
 =======
 
-mec websites
+using:
+  locomotiveCMS
+  pow
+  tmuxinator
