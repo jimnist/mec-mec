@@ -6,11 +6,13 @@ project_name: mec-mec
 project_root: ~/wrk/mec/mec-mec
 # rvm: 1.9.3@ecomom
 tabs:
-  - mec-mec:
+  - mec:
       layout: a467,88x47,0,0[88x28,0,0,88x18,0,29]
       panes:
         - subl . && pull
         - rails c
+  - mongodb:
+    - mongod run --config /usr/local/etc/mongod.conf
   - logs: tail -f log/development.log
   # - cap:
   # - util1: ssh util1
